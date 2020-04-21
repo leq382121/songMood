@@ -1,0 +1,17 @@
+{
+  "name": "songmood",
+  "version": "1.0.0",
+  "description": "Analyze Audio data and predict if it's my type or not my type of music",
+  "main": "decode.js",
+  "dependencies": {
+    "@tensorflow/tfjs": "^1.5.2",
+    "audio-decode": "^1.4.0",
+    "fs-extra": "^8.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Liutauras Razma",
+  "license": "ISC"
+}
