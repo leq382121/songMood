@@ -12,9 +12,10 @@ fs.unlink(musicFileName);
 fs.createFile(musicFileName);
 
 
-decode(fs.readFileSync('./sound/TomasS X Villius - On My Way.mp3'))
-.then(
-  console.log(audioBuffer)
+decode(fs.readFileSync('./sound/TomasS X Villius - On My Way.mp3')).then(
+  audioBuffer => {
+    console.log(audioBuffer)
+  }
 )
 .catch(console.error)
 
