@@ -4,7 +4,7 @@
   "description": "Analyze Audio data and predict if it's my type or not my type of music",
   "main": "decode.js",
   "dependencies": {
-    "@tensorflow/tfjs": "^1.5.2",
+    "@tensorflow/tfjs": "^4.8.0",
     "audio-decode": "^1.4.0",
     "fs-extra": "^8.1.0"
   },
